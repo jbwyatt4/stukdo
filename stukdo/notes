@@ -59,3 +59,7 @@ if you put the header within the container the bar will be within a formatted sp
 
 wireframing
 balsamiq
+
+font-awesome gem
+simple_form gem
+use rails g simple_form:install --bootstrap option
