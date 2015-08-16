@@ -1,0 +1,2 @@
+after installing bootstrap gem
+rails g bootstrap:install static
