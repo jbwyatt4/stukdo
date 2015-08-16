@@ -61,5 +61,15 @@ wireframing
 balsamiq
 
 font-awesome gem
+
+-Install simple_form
 simple_form gem
 use rails g simple_form:install --bootstrap option
+
+-Install devise
+rails g devise:install
+rails g devise user #is different, no :
+rails g devise:views
+In config/enviroments/development.rb
+config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+rake db:migrate
