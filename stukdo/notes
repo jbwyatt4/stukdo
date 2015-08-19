@@ -73,3 +73,8 @@ rails g devise:views
 In config/enviroments/development.rb
 config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 rake db:migrate
+Note: Css is off
+
+to make sure html is used, use var.html_safe
+such as
+<%= link_to "<i class='fa fa-circle-o-notch'></i> Stukdo".html_safe, root_path, class: "navbar-brand" %>
