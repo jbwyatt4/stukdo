@@ -93,3 +93,13 @@ remember scaffolds g their own css, you have to delete it
 To see details of object
 Object.connection
 then Object to see details
+
+Update attributes in single command
+task.update_attributes(state: "done")
+
+-Add a specific controller to resources
+resources :tasks do
+  member do
+    put 'change' # DO NOT USE :change
+  end
+end
