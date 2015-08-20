@@ -87,3 +87,9 @@ SPECIAL NOTE: DEVISE ADDED bootstrap styling, input_html: {class: "form-control"
 
 bootply bootstrap editor
 http://www.bootply.com/
+
+remember scaffolds g their own css, you have to delete it
+
+To see details of object
+Object.connection
+then Object to see details
