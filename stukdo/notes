@@ -106,3 +106,5 @@ resources :tasks do
     put 'change' # DO NOT USE :change
   end
 end
+
+btn-group-justified detects the size of the group
