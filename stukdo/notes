@@ -1,3 +1,6 @@
+Using twitter-bootstrap-rails 3.2.1 from git://github.com/seyhunak/twitter-bootstrap-rails.git (at master)
+Note version number if Bootstrap 3 comes out.
+
 after installing bootstrap gem
 rails g bootstrap:install static
 
