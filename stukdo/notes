@@ -108,3 +108,5 @@ resources :tasks do
 end
 
 btn-group-justified detects the size of the group
+
+the divs in the form generator are only useful if using the form css, which we removed
